@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.svg {
+  width: 300px;
+  height: auto;
+}
+
+/* Animate the screen opening */
+.lid {
+  transform-origin: bottom center;
+  animation: openLid 2s ease-out forwards;
+}
+
+@keyframes openLid {
+  0% {
+    transform: rotateX(90deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}

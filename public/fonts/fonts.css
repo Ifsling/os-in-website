@@ -1,0 +1,66 @@
+/* Bold */
+@font-face {
+  font-family: "Closer";
+  src: url("./closer-Bold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Closer";
+  src: url("./closer-BoldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Closer";
+  src: url("./closer-Medium.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Closer";
+  src: url("./closer-MediumItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Closer";
+  src: url("./closer-Regular.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Closer";
+  src: url("./closer-Italic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Thin */
+@font-face {
+  font-family: "Closer";
+  src: url("./closer-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Closer";
+  src: url("./closer-ThinItalic.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* ------------------------- */
+
+div {
+  font-family: Closer, sans-serif;
+  font-weight: 400; /* default to regular */
+}
