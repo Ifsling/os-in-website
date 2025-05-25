@@ -30,7 +30,7 @@ const Desktop: FC = () => {
   } else if (deviceState === "loading") {
     return (
       <>
-        <div className=" relative w-screen h-screen bg-[url('/images/desktop-bg-2.jpg')]">
+        <div className=" relative w-screen h-screen bg-[url('/images/desktop-bg.jpg')]">
           <Menubar />
           <div className="flex w-screen h-screen justify-center items-center">
             <Spinner />
