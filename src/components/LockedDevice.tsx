@@ -28,6 +28,8 @@ const LockedDevice: FC = () => {
 
   return (
     <>
+      <h1 className="absolute top-100 left-100 z-100">Password is: Ifsling</h1>
+
       <div className="relative flex w-screen h-screen justify-center items-end">
         <Image
           src={LockedDeviceImage}
